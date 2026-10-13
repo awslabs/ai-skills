@@ -20,7 +20,7 @@ installer does not install it. `uv` fetches the Python the installer needs.
 Run it from a release tag, replacing `vX.Y.Z` with the tag you want:
 
 ```sh
-uvx --from git+https://github.com/aws-samples/sample-ai-skills@vX.Y.Z ai-skills
+uvx --from git+https://github.com/awslabs/ai-skills@vX.Y.Z ai-skills
 ```
 
 From a clone of this repository, `uv run ai-skills` runs the same installer against the clone's
@@ -67,7 +67,7 @@ The result screen lists each skill directory written. Select **Quit**.
 Every choice is also a flag:
 
 ```sh
-uvx --from git+https://github.com/aws-samples/sample-ai-skills@vX.Y.Z ai-skills \
+uvx --from git+https://github.com/awslabs/ai-skills@vX.Y.Z ai-skills \
   --agent claude-code --skill ai-plan --scope project --yes
 ```
 

@@ -47,7 +47,7 @@ Claude Code, Kiro, Codex, OpenCode, pi, or Cursor. It runs with [`uv`](https://d
 and shows every file it will write before it writes anything.
 
 ```sh
-uvx --from git+https://github.com/aws-samples/sample-ai-skills@vX.Y.Z ai-skills
+uvx --from git+https://github.com/awslabs/ai-skills@vX.Y.Z ai-skills
 ```
 
 ![The installer's first screen, choosing which agents to install for](how-to/images/installer-1.png)
